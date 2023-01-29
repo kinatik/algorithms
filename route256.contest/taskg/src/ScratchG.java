@@ -7,7 +7,6 @@ public class ScratchG {
 
     public static void main(String[] args) throws IOException {
         BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
-        int N = Integer.parseInt(reader.readLine());
 
         String[] mn = reader.readLine().split(" ");
         int m = Integer.parseInt(mn[0]);
